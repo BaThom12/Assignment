@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TestNGListener">
+    <listeners>
+        <listener class-name="com.vmo.demowebshop.helper.TestNGListener"/>
+    </listeners>
+    <test name="Nopcommerce">
+        <!--<parameter name="browser" value="CHROME"></parameter>
+        <parameter name="runType" value="grid"></parameter>-->
+        <classes>
+            <class name="com.vmo.demowebshop.login.LoginTest"></class>
+            <!-- <class name="com.vmo.nopcommerce.register.RegisterSuccessfullyTest"></class>
+            <class name="com.vmo.nopcommerce.login.ForgetPasswordTest"></class>-->
+        </classes>
+    </test>
+
+</suite><!-- Test -->
