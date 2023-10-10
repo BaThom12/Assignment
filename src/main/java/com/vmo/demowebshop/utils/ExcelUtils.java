@@ -59,8 +59,8 @@ public class ExcelUtils {
         int colNum = getNumberOfColumn();
         Object[][] obj = new Object[rowNum][colNum];
         int currentRow =0;
-        for(int i=1;i<rowNum;i++){
-            for(int j = 1;j<colNum;j++){
+        for(int i=1;i<=rowNum;i++){
+            for(int j = 0;j<colNum;j++){
                 obj[currentRow][j] = getValueOfCell(i,j);
             }
             currentRow++;

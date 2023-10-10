@@ -15,6 +15,8 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Set;
 
+import static org.openqa.selenium.support.ui.ExpectedConditions.presenceOfElementLocated;
+
 public class BasePage {
     private long shortTimeOut = GlobalConstants.SHORT_TIMEOUT;
     private long longTimeOut = GlobalConstants.LONG_TIMEOUT;
@@ -644,6 +646,10 @@ public class BasePage {
     protected void clickToElement(WebDriver driver, String locator, String... params) {
         waitForElementVisible(driver,locator,params);
         getWebElement(driver, getDynamiLocator(locator, params)).click();
+    }
+    protected boolean isDisplayInDom(String locator){
+      return explicit.until(ExpectedConditions.presenceOfElementLocated(By.xpath(locator))).isDisplayed();
+
     }
 
 }
