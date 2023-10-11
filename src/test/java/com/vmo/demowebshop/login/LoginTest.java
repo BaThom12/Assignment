@@ -47,7 +47,7 @@ public class LoginTest extends BaseTest {
        verifyEquals(login.getTextError(driver,STT,LoginPageUI.LOCATOR_MESSAGE,LoginPageUI.LOCATOR_MESSAGE_VALIDATE_ERROR),expect);
     }
 
-    @AfterTest
+    @AfterMethod
     public void tearDown() {
         driver.quit();
     }

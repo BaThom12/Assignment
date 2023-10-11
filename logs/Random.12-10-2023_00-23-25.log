@@ -1,0 +1,22 @@
+[12-10-2023 00:23:30.115 INFO com.vmo.demowebshop.helper.Log] - Open browser
+[12-10-2023 00:23:35.645 INFO com.vmo.demowebshop.helper.Log] - Open Demo shop
+[12-10-2023 00:23:38.687 INFO com.vmo.demowebshop.helper.Log] - Get title of Page
+[12-10-2023 00:23:39.556 INFO com.vmo.demowebshop.helper.Log] - Click on link
+[12-10-2023 00:23:39.556 INFO com.vmo.demowebshop.helper.Log] - Get title of Page
+[12-10-2023 00:23:39.728 INFO com.vmo.demowebshop.helper.Log] - Enter value on textbox
+[12-10-2023 00:23:39.868 INFO com.vmo.demowebshop.helper.Log] - Enter value on textbox
+[12-10-2023 00:23:40.447 INFO com.vmo.demowebshop.helper.Log] - Click on link
+[12-10-2023 00:23:41.229 INFO com.vmo.demowebshop.helper.Log] - Get title of Page
+[12-10-2023 00:23:41.271 INFO com.vmo.demowebshop.helper.Log] - Get title of Page
+[12-10-2023 00:23:41.295 INFO com.vmo.demowebshop.helper.Log] - Get title of Page
+[12-10-2023 00:23:41.320 INFO com.vmo.demowebshop.helper.Log] - Get title of Page
+[12-10-2023 00:23:41.336 INFO com.vmo.demowebshop.helper.Log] - Get title of Page
+[12-10-2023 00:23:42.797 INFO com.vmo.demowebshop.helper.Log] - Open browser
+[12-10-2023 00:23:46.905 INFO com.vmo.demowebshop.helper.Log] - Open Demo shop
+[12-10-2023 00:23:46.919 INFO com.vmo.demowebshop.helper.Log] - Get title of Page
+[12-10-2023 00:23:46.937 INFO com.vmo.demowebshop.helper.Log] - Click on Login link
+[12-10-2023 00:23:47.860 INFO com.vmo.demowebshop.helper.Log] - Get title of Book page
+[12-10-2023 00:23:51.127 INFO com.vmo.demowebshop.helper.Log] - Add success 2 book rating highest
+[12-10-2023 00:23:51.186 INFO com.vmo.demowebshop.helper.Log] - Add to cart success
+[12-10-2023 00:23:54.234 INFO com.vmo.demowebshop.helper.Log] - Get quantity
+[12-10-2023 00:23:54.528 INFO com.vmo.demowebshop.helper.Log] - Hover success

@@ -4,14 +4,13 @@
     <listeners>
         <listener class-name="com.vmo.demowebshop.helper.TestNGListener"/>
     </listeners>
-    <test name="Nopcommerce">
+    <test name="Demowebshop">
         <!--<parameter name="browser" value="CHROME"></parameter>
         <parameter name="runType" value="grid"></parameter>-->
         <classes>
-            <class name="com.vmo.demowebshop.login.LoginTest"></class>
-            <!-- <class name="com.vmo.nopcommerce.register.RegisterSuccessfullyTest"></class>
-            <class name="com.vmo.nopcommerce.login.ForgetPasswordTest"></class>-->
-        </classes>
-    </test>
+             <class name="com.vmo.demowebshop.login.LoginTest"></class>
+             <class name="com.vmo.demowebshop.book.BookTest"></class>
+         </classes>
+     </test>
 
-</suite><!-- Test -->
+ </suite><!-- Test -->
